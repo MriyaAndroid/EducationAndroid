@@ -62,6 +62,8 @@ class MainActivity : AppCompatActivity() {
 
     //if else = getResult
 
+    //Типы данных kotlin операторы kotlin
+
     fun getResult() {
     // if (znak == "-") {
     // выполнит если минус
