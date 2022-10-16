@@ -37,26 +37,42 @@ class MainActivity : AppCompatActivity() {
         minus.setOnClickListener {
             val numberOne = numberOne.text.toString()
             val numberTwo = numberTwo.text.toString()
+            val minus = "-"
             getResultMinus(numberOne, numberTwo)
         }
         plus.setOnClickListener {
             val numberOne = numberOne.text.toString()
             val numberTwo = numberTwo.text.toString()
+            val plus = "+"
             getResultPlus(numberOne, numberTwo)
         }
         umnoshit.setOnClickListener {
             val numberOne = numberOne.text.toString()
             val numberTwo = numberTwo.text.toString()
+            val umnoshit = "*"
             getResultUmnoshit(numberOne, numberTwo)
         }
         delete.setOnClickListener {
             val numberOne = numberOne.text.toString()
             val numberTwo = numberTwo.text.toString()
+            val delete = "/"
             getResultDelete(numberOne, numberTwo)
         }
     }
 
     //if else = getResult
+
+    fun getResult() {
+    // if (znak == "-") {
+    // выполнит если минус
+    // } else if (znak == "/") {
+    // выполнит если деление
+    // } else if (znak == "*") {
+    //  выполнит если умножить
+    // } else if (znak == "+"){
+    //  выполнит если плюс
+    // }
+    }
 
     private fun getResultDelete(numberOne: String, numberTwo: String) {
         val result = numberOne.toInt() / numberTwo.toInt()
