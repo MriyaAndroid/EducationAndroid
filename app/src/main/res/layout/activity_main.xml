@@ -20,7 +20,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:onClick="myToast"
         android:id="@+id/YouButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +32,6 @@
         app:layout_constraintVertical_bias="0.501" />
 
     <Button
-        android:onClick="cauntME"
         android:id="@+id/WEButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
